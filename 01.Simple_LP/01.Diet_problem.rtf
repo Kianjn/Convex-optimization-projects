@@ -1,0 +1,136 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 .SFNS-Bold;\f1\fnil\fcharset0 .SFNS-Regular;\f2\fnil\fcharset0 HelveticaNeue-Bold;
+\f3\fnil\fcharset0 .AppleSystemUIFontMonospaced-Regular;\f4\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red14\green14\blue14;\red89\green138\blue67;\red24\green24\blue24;
+\red193\green193\blue193;}
+{\*\expandedcolortbl;;\cssrgb\c6700\c6700\c6700;\cssrgb\c41569\c60000\c33333;\cssrgb\c12157\c12157\c12157;
+\cssrgb\c80000\c80000\c80000;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww13620\viewh11940\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f0\b\fs36 \cf2 \ul \ulc2 How This LP Works
+\fs28 \ulnone \
+
+\f1\b0 \
+\pard\tqr\tx100\tx260\li260\fi-260\sl324\slmult1\sb240\partightenfactor0
+\cf2 	\'95	
+\f2\b Decision Variables:
+\f1\b0  The amount of each food to consume (in grams).\
+	\'95	
+\f2\b Objective Function:
+\f1\b0  Minimize total cost of the diet.\
+	\'95	
+\f2\b Constraints:
+\f1\b0 \
+\pard\tqr\tx500\tx660\li660\fi-660\sl324\slmult1\sb240\partightenfactor0
+\cf2 	\'95	Ensure at least 
+\f2\b 2500 kcal
+\f1\b0  of energy.\
+	\'95	Ensure at least 
+\f2\b 100g of protein
+\f1\b0 .\
+	\'95	Ensure at least 
+\f2\b 130g of carbs
+\f1\b0 .\
+	\'95	Do 
+\f2\b not exceed 70g of fat
+\f1\b0 .\
+\pard\tqr\tx100\tx260\li260\fi-260\sl324\slmult1\sb240\partightenfactor0
+\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f0\b\fs36 \cf2 \ul \ulc2 Brief Explanation of the Code
+\f1\b0\fs28 \ulnone \
+\
+The Python script 
+\f2\b \cf2 solves a Linear Programming (LP) problem
+\f1\b0 \cf2  using the 
+\f2\b \cf2 PuLP
+\f1\b0 \cf2  library. The goal is to 
+\f2\b \cf2 minimize the total cost
+\f1\b0 \cf2  of a diet while meeting nutritional requirements.\
+\
+
+\f0\b Libraries Used
+\f1\b0 \
+\pard\tqr\tx100\tx260\li260\fi-260\sl324\slmult1\sb240\partightenfactor0
+\cf2 	\'95	
+\f3 \cf2 pulp.LpProblem
+\f1 \cf2 : Creates the optimization problem.\
+	\'95	
+\f3 \cf2 pulp.LpMinimize
+\f1 \cf2 : Specifies that we want to minimize an objective function.\
+	\'95	
+\f3 \cf2 pulp.LpVariable
+\f1 \cf2 : Defines decision variables (amount of each food in grams).\
+	\'95	
+\f3 \cf2 pulp.lpSum
+\f1 \cf2 : Computes the sum of multiple terms efficiently.\
+	\'95	
+\f3 \cf2 pulp.value
+\f1 \cf2 : Extracts the final optimized value.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f0\b \cf2 How the Code Works
+\f1\b0 \
+\pard\tqr\tx360\tx520\li520\fi-520\sl324\slmult1\sb240\partightenfactor0
+\cf2 	1.	
+\f2\b \cf2 Defines the problem
+\f1\b0 \cf2  as a minimization problem (
+\f3 \cf2 LpProblem
+\f1 \cf2 ).\
+	2.	
+\f2\b \cf2 Creates decision variables
+\f1\b0 \cf2  (
+\f3 \cf2 LpVariable
+\f1 \cf2 ) for each food item.\
+	3.	
+\f2\b \cf2 Sets the objective function
+\f1\b0 \cf2  to 
+\f2\b \cf2 minimize the total cost
+\f1\b0 \cf2  of food.\
+	4.	
+\f2\b \cf2 Adds constraints
+\f1\b0 \cf2  for:\
+\pard\tqr\tx500\tx660\li660\fi-660\sl324\slmult1\sb240\partightenfactor0
+\cf2 	\'95	Minimum 
+\f2\b calories
+\f1\b0  (\uc0\u8805  2500 kcal).\
+	\'95	Minimum 
+\f2\b protein
+\f1\b0  (\uc0\u8805  100g).\
+	\'95	Minimum 
+\f2\b carbs
+\f1\b0  (\uc0\u8805  130g).\
+	\'95	Maximum 
+\f2\b fat
+\f1\b0  (\uc0\u8804  70g).\
+\pard\tqr\tx360\tx520\li520\fi-520\sl324\slmult1\sb240\partightenfactor0
+\cf2 	5.	
+\f2\b \cf2 Solves the problem
+\f1\b0 \cf2  using the built-in PuLP solver.\
+	6.	
+\f2\b \cf2 Prints the results
+\f1\b0 \cf2 , showing the optimal amount of each food and the minimum cost.\
+\pard\tqr\tx100\tx260\li260\fi-260\sl324\slmult1\sb240\partightenfactor0
+\cf2 \
+
+\f0\b\fs36 \ul Results
+\fs28 \ulnone \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f4\b0 \cf3 \cb4 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Optimal Diet Plan:\cf5 \cb1 \strokec5 \
+\cf3 \cb4 \strokec3 Rice: 1587.30 grams\cf5 \cb1 \strokec5 \
+\cf3 \cb4 \strokec3 Chicken: 174.60 grams\cf5 \cb1 \strokec5 \
+\cf3 \cb4 \strokec3 Beef: 0.00 grams\cf5 \cb1 \strokec5 \
+\cf3 \cb4 \strokec3 Lentils: 0.00 grams\cf5 \cb1 \strokec5 \
+\cf3 \cb4 \strokec3 Milk: 0.00 grams\cf5 \cb1 \strokec5 \
+\cf3 \cb4 \strokec3 Eggs: 0.00 grams\cf5 \cb1 \strokec5 \
+\cf3 \cb4 \strokec3 Vegetables: 0.00 grams\cf5 \cb1 \strokec5 \
+\
+\cf3 \cb4 \strokec3 Total Minimum Cost: \'8048.41
+\fs24 \cf5 \cb1 \strokec5 \
+}
