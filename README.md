@@ -1,4 +1,4 @@
-# convex-optimization-projects
+
 # Convex Optimization Projects  
 
 This repository contains a series of projects focused on **Convex Optimization**, implemented in Python. These projects serve as practice and training for more advanced optimization problems, particularly **Portfolio Optimization** and **Energy Optimization**.  
