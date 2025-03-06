@@ -22,7 +22,7 @@ This repository contains a series of projects focused on **Convex Optimization**
 - ✅ Solve a **Simple Diet Problem** using 3 Different Solvers (Gurobi, PuLP & CVXPY) - 06
   
 ### **Convex Analysis**  
-- ✅ Implement **Convex Function Checks** & **Convex Hulls** in Python  
+- ✅ Implement **Convex Function Checks** & **Convex Hulls** in Python - 07  
 - ✅ Visualize **Convex vs. Non-Convex Functions** using Matplotlib  
 - ✅ Compute **Convex Hulls** using `SciPy.spatial.ConvexHull`  
 
