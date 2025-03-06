@@ -9,8 +9,11 @@ This repository contains a series of projects focused on **Convex Optimization**
 
 ### **Linear Programming (LP)**
 - ✅ A Simple LP (Diet Problem)  
-- ✅ Solve an LP using the **Simplex Method** in Python  
-- ✅ Solve an LP with **Sensitivity Analysis** (Shadow Prices, Reduced Costs)  
+- ✅ Solve an LP using the **Simplex Method** in Python (Resource-constrained Production Optimization) 
+- ✅ Solve an LP with **Sensitivity Analysis** (Transportation Optimization)
+
+### **Mixed-Integer Linear Programming (MILP)**
+- ✅ A Simple MILP (Scheduling Problem)  
 
 ### **Network Flow Optimization**  
 - ✅ Solve a **Transportation Problem** (Network Flow Model) using Python  
