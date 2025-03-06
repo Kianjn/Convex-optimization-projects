@@ -16,8 +16,11 @@ This repository contains a series of projects focused on **Convex Optimization**
 - ✅ A Simple MILP (Scheduling Problem) - 04  
 
 ### **Network Flow Optimization**  
-- ✅ Solve a **Transportation Problem** (Network Flow Model) using Python  
+- ✅ Solve a **Transportation Problem** (Network Flow Model) using Python - 05
 
+### **Comparison of Solvers**     
+- ✅ Solve a **Simple Diet Problem** using 3 Different Solvers (Gurobi, PuLP & CVXPY) - 06
+  
 ### **Convex Analysis**  
 - ✅ Implement **Convex Function Checks** & **Convex Hulls** in Python  
 - ✅ Visualize **Convex vs. Non-Convex Functions** using Matplotlib  
