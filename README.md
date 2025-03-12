@@ -31,18 +31,10 @@ This repository contains a series of projects focused on **Convex Optimization**
 - ✅ Solve a **Semidefinite Programming (SDP)** problem using `cvxpy` - 09 
 
 ### **Karush-Kuhn-Tucker (KKT) Conditions**  
-- ✅ Implement **KKT conditions verification** for an optimization problem in Python  
+- ✅ Implement **KKT conditions verification** for an optimization problem in Python - 10  
 
 ### **Multi-Objective Optimization**  
-- ✅ Implement a **Multi-Objective Optimization** problem in Python  
-
----
-
-## Final Optimization Problems  
-After completing the training projects, the final two **real-world optimization problems** will be tackled:  
-
-1️⃣ **Portfolio Optimization** – Applying convex optimization techniques to optimize asset allocation.  
-2️⃣ **Energy Optimization Problem** – Using optimization methods for energy system modeling.  
+- ✅ Implement a **Multi-Objective Optimization** problem in Python - 11  
 
 ---
 
