@@ -23,12 +23,12 @@ This repository contains a series of projects focused on **Convex Optimization**
   
 ### **Convex Analysis**  
 - ✅ Implement **Convex Function Checks** & **Convex Hulls** in Python - 07  
-- ✅ Visualize **Convex vs. Non-Convex Functions** using Matplotlib  
-- ✅ Compute **Convex Hulls** using `SciPy.spatial.ConvexHull`  
+- ✅ Visualize **Convex vs. Non-Convex Functions** using Matplotlib - 07 
+- ✅ Compute **Convex Hulls** using `SciPy.spatial.ConvexHull` - 07 
 
 ### **Quadratic & Semidefinite Programming**  
-- ✅ Solve a **Quadratic Programming (QP)** problem using `cvxpy`  
-- ✅ Solve a **Semidefinite Programming (SDP)** problem using `cvxpy`  
+- ✅ Solve a **Quadratic Programming (QP)** problem using `cvxpy` - 08  
+- ✅ Solve a **Semidefinite Programming (SDP)** problem using `cvxpy` - 09 
 
 ### **Karush-Kuhn-Tucker (KKT) Conditions**  
 - ✅ Implement **KKT conditions verification** for an optimization problem in Python  
