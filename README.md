@@ -1,4 +1,3 @@
-
 # Convex Optimization Projects  
 
 
@@ -39,10 +38,26 @@ This repository contains a series of projects focused on **Convex Optimization**
 
 ### **Karush-Kuhn-Tucker (KKT) Conditions**  
 - ✅ Implement **KKT conditions verification** for an optimization problem in Python - 10  
+<<<<<<< HEAD
 
 
 ### **Multi-Objective Optimization**  
 - ✅ Implement a **Multi-Objective Optimization** problem in Python - 11  
+=======
+
+### **Multi-Objective Optimization**  
+- ✅ Implement a **Multi-Objective Optimization** problem in Python - 11  
+
+### **Advanced Portfolio Optimization**
+- ✅ Implement a **Multi-Factor Portfolio Optimization** with Risk Management - 12
+  - Multi-factor model using PCA
+  - Sector-based constraints
+  - Factor exposure limits
+  - Transaction cost consideration
+  - Performance attribution analysis
+  - Monte Carlo simulation
+  - Comprehensive visualization
+>>>>>>> cc61938 (Uploaded - Advanced Portfolio Optimization Project)
 
 ### **Advanced Portfolio Optimization**
 - ✅ Implement a **Multi-Factor Portfolio Optimization** with Risk Management - 12
