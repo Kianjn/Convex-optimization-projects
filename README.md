@@ -24,6 +24,7 @@ This repository contains a series of projects focused on **Convex Optimization**
 
 ### **Comparison of Solvers**     
 - ✅ Solve a **Simple Diet Problem** using 3 Different Solvers (Gurobi, PuLP & CVXPY) - 06
+
   
 ### **Convex Analysis**  
 - ✅ Implement **Convex Function Checks** & **Convex Hulls** in Python - 07  
@@ -38,15 +39,15 @@ This repository contains a series of projects focused on **Convex Optimization**
 
 ### **Karush-Kuhn-Tucker (KKT) Conditions**  
 - ✅ Implement **KKT conditions verification** for an optimization problem in Python - 10  
-<<<<<<< HEAD
 
 
 ### **Multi-Objective Optimization**  
 - ✅ Implement a **Multi-Objective Optimization** problem in Python - 11  
-=======
+
 
 ### **Multi-Objective Optimization**  
 - ✅ Implement a **Multi-Objective Optimization** problem in Python - 11  
+
 
 ### **Advanced Portfolio Optimization**
 - ✅ Implement a **Multi-Factor Portfolio Optimization** with Risk Management - 12
@@ -57,6 +58,7 @@ This repository contains a series of projects focused on **Convex Optimization**
   - Performance attribution analysis
   - Monte Carlo simulation
   - Comprehensive visualization
+
 
 ### **Advanced Portfolio Optimization**
 - ✅ Implement a **Multi-Factor Portfolio Optimization** with Risk Management - 12
