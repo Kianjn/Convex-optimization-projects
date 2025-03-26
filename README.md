@@ -57,7 +57,6 @@ This repository contains a series of projects focused on **Convex Optimization**
   - Performance attribution analysis
   - Monte Carlo simulation
   - Comprehensive visualization
->>>>>>> cc61938 (Uploaded - Advanced Portfolio Optimization Project)
 
 ### **Advanced Portfolio Optimization**
 - ✅ Implement a **Multi-Factor Portfolio Optimization** with Risk Management - 12
